@@ -17,7 +17,7 @@ export default function Home() {
           draggable: false,
           progress: undefined,
           theme: "dark",
-          });
+          }); 
         setLoading(true);
           const res=await fetch('/api/generator',{
             method:"POST",
