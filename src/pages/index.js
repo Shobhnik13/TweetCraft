@@ -60,8 +60,8 @@ export default function Home() {
    <div className='min-h-screen flex items-center justify-center bg-gray-200'>
     {/* this upper div will contain all elements */}
     {/* this lower div  is for all the labels and h1(WHOLE CONTENT)*/}
-    <div className='bg-white shadow-lg rounded-lg p-6 w-96 space-y-4'>
-      <h1 className='text-3xl font-semibold text-center'>AI tweet generator!</h1>
+    <div className='bg-white shadow-lg rounded-lg p-6 w-96 space-y-4 '>
+      <h1 className='text-3xl font-bold text-center text-blue-950 bg-gradient-to-r from-blue-400 to-blue-200 p-4 rounded-md '>TweetCraft</h1>
     {/* div for each label and input -> topic */}
     <div className='flex flex-col space-y-2'>
       <label htmlFor="topic" className='text-lg'>
