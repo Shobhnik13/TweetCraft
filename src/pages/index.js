@@ -98,6 +98,7 @@ export default function Home() {
         pauseOnHover={false}
         theme="dark"
       />
+      
       {/* showing the generated tweet  */}
       {tweet && <p className="text-center text-lg font-medium text-blue-500">{tweet}</p> }
     </div>
