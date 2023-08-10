@@ -7,7 +7,7 @@ export default async function handler(req, res){
     const replicate = new Replicate({
       auth: process.env.REPLICATE_API_TOKEN,
     });
-    try{
+    try{ 
         const output = await replicate.run(
             "a16z-infra/llama-2-13b-chat:2a7f981751ec7fdf87b5b91ad4db53683a98082e9ff7bfd12c8cd5ea85980a52",
             {
